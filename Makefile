@@ -1,4 +1,6 @@
 .PHONY:compile
+.PHONY:run
+.PHONY:ship
 
 compile:
 	GOOS=linux go build -o myapp
